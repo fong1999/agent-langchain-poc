@@ -1,1 +1,6 @@
 node_modules
+agent-langchain-frontend/.angular
+agent-langchain-frontend/node_modules
+agent-langchain-backend/venv
+agent-langchain-backend/app/__pycache__
+agent-langchain-backend/app/routes/__pycache__

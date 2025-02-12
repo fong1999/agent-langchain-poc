@@ -1,0 +1,15 @@
+<div class="chat-container">
+    <div class="chat-box">
+      <div *ngFor="let msg of chatHistory">
+        <p><strong>You:</strong> {{ msg.user }}</p>
+        <p><strong>Bot:</strong> {{ msg.bot }}</p>
+      </div>
+    </div>
+  
+    <div class="chat-input">
+      <input [(ngModel)]="userMessage" placeholder="Ask me anything..." />
+      <button (click)="sendMessage()">Send</button>
+    </div>
+  </div>
+  <button (click)="getLatestNews()">Get Latest News</button>
+
