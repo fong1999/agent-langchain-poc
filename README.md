@@ -1,5 +1,7 @@
 ## Project structure
 
+```
+
 agent-langchain-poc/           # Root directory
 │
 ├── agent-langchain-frontend/   # Angular Frontend
@@ -23,3 +25,5 @@ agent-langchain-poc/           # Root directory
     ├── .env                      # Environment variables (API keys)
     ├── run.sh                    # Script to run the backend
     └── README.md                 # Documentation
+
+```
